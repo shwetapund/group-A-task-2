@@ -1,0 +1,367 @@
+.navbar a{
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    height: 10px;
+    display: block;
+    padding: 25px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+ }
+ .navbar a:hover{
+    cursor: pointer;
+    background-color: crimson;
+
+ }
+.navbar ul{
+    list-style: none;   
+    padding:0;
+    margin: 0;
+    text-align: center;
+    height: 100px;
+    position: relative;
+    bottom: 20px;
+}
+.navbar li{
+        display: inline-block;
+}
+.btn-1{
+   height:40px;
+   width:130px;
+   position: relative;
+   left:80px;
+   right:50px;
+   bottom: 15px;
+   color:white;
+   font-size: 20px;
+   font-weight: bold;
+   background-color:#00ccff;
+   border: 1px solid black;
+   border-radius: 20px;
+
+}
+.btn-1:hover{
+    cursor: pointer;
+    background-color: rgb(2, 2, 68);
+}
+.btn{
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    margin-bottom: 200px;
+    margin-left: 10px;
+    border-radius: 20px;
+    width:150px;
+    height:35px ;
+    padding:7px;
+    font-size: 13px;
+    margin-top: 20px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(243, 186, 111);
+}
+.C{
+    height:50px;;
+    width:100px;
+}
+.small-img{
+    height:100px;
+    width:100px;
+    margin-top: 80px;
+    margin-left: 50px;
+    border: 0.1px solid whitesmoke ;
+    border-radius: 15px;
+}
+.paytm-logo{
+    height:67px;
+    width:155px;
+    position: relative;
+    right: 100px;
+    top: 10px;
+
+}
+
+.D{
+    background-color: #d9d9d9;
+    height: 40px;
+    width: 100wh;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 1px;
+    padding-bottom: 15px;
+}
+.big-img{
+    height: 500px;
+    width: 500px;
+    margin-right: 500px;
+
+    position:relative;
+    left:400px;
+    top:80px;
+    
+    
+}
+.main-1{
+    display: flex;
+    flex-direction: row;
+    background-color: #e8f8fd;
+}
+#para{
+    font-size: 25px;
+    margin-left:30px;
+
+}
+.h1{
+  font-size: 40px;
+  margin-left: 30px;
+  font-family:'Franklin Gothic Medium';
+}
+.main-2-8{
+    display: flex;
+    flex-direction: row;
+    background-color: #e8f8fd;
+}
+.main-3{
+    display: flex;
+    flex-direction: row;
+    background-color: #e8f8fd;
+}
+.main-4{
+    display: flex;
+    flex-direction: row;
+    background-color: #e8f8fd;
+}
+.main-6{
+    display: flex;
+    flex-direction: row;
+    background-color: #e8f8fd;
+}
+
+.small-img-2{
+    height:100px;
+    width:100px;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.logo-read{
+    position: relative;
+    left: 150px;
+    font-size: 20px;
+    bottom: 100px;
+}
+    #para-2{
+        font-size: 25px;
+        margin-left:30px;
+    
+    }
+    .h2{
+        font-size: 30px;
+        margin-left: 30px;
+        font-family:'Franklin Gothic Medium';
+      }
+      .big-img-2{
+        height: 500px;
+        width: 600px;
+        margin-right: 200px;
+        position: relative;
+        left:250px;
+        top:80px;
+      }
+      .main-in{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .main-second-1{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #00B9F1;
+        background-color: #00B9F1;
+        height: 400px;
+        width: 100wh;
+      }
+      .main-second-2{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #002E6E;
+        background-color:#002E6E;
+        height: 400px;
+        width: 100wh;
+      }
+      .card-1{
+        background-color: white;
+        border:1px solid #00B9F1;
+        border-radius: 15px;
+       
+        min-height:170px;
+        min-width: 135px;
+        margin-top:100px;
+        background-color:#00B9F1;
+        margin-left:10px;
+        margin-right: 50px;
+      }
+      .card-2{
+        background-color: white;
+        border:1px solid #002E6E;
+        border-radius: 15px;
+        min-height:170px;
+        min-width: 135px;
+        margin-top:100px;
+        background-color: #002E6E;
+        margin-left: 5px;
+      }
+    .card-1:hover{
+            cursor: pointer;
+       background-color:#1299c2;
+    }
+    .card-2:hover{
+        cursor: pointer;
+   background-color:rgb(11, 11, 88);
+}
+      .img-1{
+        border: 1px solid #00B9F1;
+        border-radius: 90%;
+        height: 68px;
+        margin-left: 15px;
+        margin-top: 10px;
+
+    }
+      .img-2{
+        border: 1px solid #002E6E;
+        border-radius: 90%;
+        height: 68px;
+        margin-left: 15px;
+        margin-top: 10px;
+      }
+
+    .read{
+        margin-left: 15px;
+        font-size: 18px;
+        color:white;
+    }
+    .main-5{
+        height: 800px;
+        display: flex;
+        background-color: #e8f8fd;
+        padding-bottom:20px;
+    }
+    .main-5-1{
+        height: 720px;
+        width: 520px;
+        border-radius: 15px;
+        border: 0.5 solid white;
+        padding: 10px;
+        position: relative;
+        left:65px;
+        top:40px;
+        background-color: white;
+        padding:20px;
+        
+    }
+    .logo-5-1{
+        margin-top:10px;
+        margin-left:30px;
+        height: 90px;
+        width: 120px;
+    }
+    .img-5-1{
+        margin-left:50px;
+        height: 350px;
+        width: 390px;
+    }
+    .main-5-2{
+        height: 720px;
+        width: 520px;
+        border-radius: 15px;
+        border: 0.5 solid white;
+        padding: 10px;
+        position: relative;
+        left:120px;
+        top:40px;
+        
+        background-color: white;
+        padding:20px;
+        
+    }
+    .heading{
+        font-size: 40px;
+        text-align: start;
+        color:#e8f8fd;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .img-5-2{
+        margin-left:50px;
+        height: 350px;
+        width: 390px;
+    }
+    .heading-1{
+        font-size: 40px;
+        text-align: start;
+        color:black;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .main-7{
+        display: flex;
+        flex-direction: row;
+       
+        background-image: url('https://assetscdn1.paytm.com/frontendcommonweb/69678bc5.png');
+        background-size: cover;
+        background-repeat: repeat;
+        
+    }
+    .big-img-7{
+        height: 500px;
+        width: 600px;
+        margin-top:70px;
+        margin-left: 20px;
+        
+      
+    }
+    #para-7{
+        font-size: 25px;
+        margin-left:80px;
+    
+    }
+    .h7{
+        font-size: 30px;
+        margin-left: 80px;
+    }
+    .logo-8{
+        height:60px;
+        width:130px;
+        margin-top: 80px;
+        margin-left: 80px;
+    }
+    .btn-2{
+        color: white;
+        background-color: black;
+        border: 1px solid black;
+        margin-bottom: 200px;
+        margin-left: 80px;
+        border-radius: 20px;
+        width:150px;
+        height:35px ;
+        padding:7px;
+        font-size: 13px;
+        margin-top: 20px;
+        
+    }
+    .logo-img{
+    height:50px;
+    width:150px;
+    margin-top: 80px;
+    margin-left: 50px;
+    }
+
+
+    
+
+
+
+

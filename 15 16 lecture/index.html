@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Box shadow</title>
+    <style>
+        .card {
+    height:550px;
+    width: 350px;
+    background-color:#dfd3bd;
+    border-radius: 15px;
+    box-shadow:  3px 3px 3px 2px rgb(243, 147, 147);
+    border:1px solid rgb(5, 0, 0);
+    position: relative ;
+    left:50px;
+    top:50px;
+}
+.img{
+    height:140px;
+    width: 170px;
+    box-shadow:5px 5px 4px 3px rgb(116, 113, 113);
+    position: relative;
+    left:90px;
+    top:20px;
+    border-radius: 10px;
+    border:1px solid black;
+}
+.pizaa{
+   font-size:20px ; 
+   position: absolute;
+   left:120px;
+   top:170px;
+}
+.price{
+    height:30px;
+    width: 120px;
+    border:0.5px dashed black;
+    border-radius: 15px;
+    background-color: rgb(161, 221, 146); 
+    position:absolute;
+    right:5px;
+}
+.buynow{
+    height: 40px;
+    width:160px;
+    background-color:yellow;
+    border-radius: 10px;
+    margin-left:100px;
+}
+.buynow:hover{
+    background-color: bisque;
+    cursor:pointer;
+}
+p{
+    font-size:20px;
+    font-family:'Times New Roman';
+    margin-left:20px;
+
+}
+.s{
+    margin-top:5px;
+    display: inline-block;
+    margin-left:5px;
+}
+</style>
+    </head>
+    <body>
+        <div class="card">
+            <img src="pizaa.jpg" class="img"/>
+            <div class="pizaa">
+                😍Pizza😋
+            </div><br/>
+        <br/><br/><br/>
+            <p>Pizza is a dish of Italian origin <br/>
+                Vitamin C	2%	<br/>
+                Calcium	18%   <br/>
+                Iron	13%	  <br/>
+                Vitamin D	0% <br/>
+                Vitamin B6	5%	<br/>
+                Cobalamin	6%  <br/>
+                Magnesium	6%	<br/>
+            </p>
+            <div class="price"><span class="s">Only at Rs 200 /-</span></div>
+            <br/><br/><br/>
+            <button class="buynow">Buy Now</button>
+            </div>
+    </body>
+    </html>
